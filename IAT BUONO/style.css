@@ -1,0 +1,68 @@
+/* Reset base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #5c6bc0;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#current-group {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #5c6bc0;
+}
+
+#stimulus {
+    margin-top: 40px;
+}
+
+#stimulus-image {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.start-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #3f4c9a;
+}
